@@ -34,10 +34,12 @@ URI　：　https://github.com/eb-xiexinyue/EB_Tech_Training_2025.git
 
 <br>
 <h4>６、参照ボタンを押下し、ディレクトリにEclipseのワークスペースを指定して、次へを押下する</h4>
-※　ワークスペース　＋　プロジェクト名称(EB_Tech_Training_2025)
+※　デフォルトのディレクトリーは「C:\Users\ユーザー名\git\EB_Tech_Training_2025」に設定されていた可能性がありますので、
+　　必ず下記の画像通りのパスに設定してください！
+　　ワークスペース　＋　プロジェクト名称(EB_Tech_Training_2025)
 
+![環境構築_2](https://github.com/user-attachments/assets/38de83a3-ef0b-4ca2-b464-6b03c6a6b7c9)
 
-![image](https://github.com/eb-xiexinyue/Java_Induction_2024/blob/sya_shinetsu/img/7.png)
 
 <br>
 <h4>７、新規プロジェクトを選択して、完了</h4>
