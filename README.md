@@ -1,4 +1,4 @@
-# IotaJava_G4
+# Java研修環境構築
 
 ### import project from github
 <h4>１、Eclipse 「プロジェクトのインポート」機能を選択する</h4>
