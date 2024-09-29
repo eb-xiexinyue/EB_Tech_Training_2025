@@ -18,8 +18,7 @@
 <br>
 <h4>４、下記の通りに、各項目を入力して、次へ</h4>
 
-URI　：　[[https://github.com/eb-xiexinyue/Java_Induction_2024.git](https://github.com/eb-xiexinyue/EB_Tech_Training_2025.git)
-](https://github.com/eb-xiexinyue/EB_Tech_Training_2025.git)
+URI　：　https://github.com/eb-xiexinyue/EB_Tech_Training_2025.git
 
 ユーザー　：　自分のGITHUBのユーザーID
 
@@ -34,7 +33,7 @@ URI　：　[[https://github.com/eb-xiexinyue/Java_Induction_2024.git](https://g
 
 <br>
 <h4>６、参照ボタンを押下し、ディレクトリにEclipseのワークスペースを指定して、次へを押下する</h4>
-※　ワークスペース　＋　プロジェクト名称(Java_Induction_2024)
+※　ワークスペース　＋　プロジェクト名称(EB_Tech_Training_2025)
 
 
 ![image](https://github.com/eb-xiexinyue/Java_Induction_2024/blob/sya_shinetsu/img/7.png)
@@ -51,7 +50,7 @@ URI　：　[[https://github.com/eb-xiexinyue/Java_Induction_2024.git](https://g
 
 <br>
 
-<h4>９、プロジェクト名称に「Java_Induction_2024」を設定して、次へ</h4>
+<h4>９、プロジェクト名称に「EB_Tech_Training_2025」を設定して、次へ</h4>
 
 ※module-info.javaファイル作成にチェックを外す
 
