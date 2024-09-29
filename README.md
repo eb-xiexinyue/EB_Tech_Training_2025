@@ -24,7 +24,8 @@ URI　：　https://github.com/eb-xiexinyue/EB_Tech_Training_2025.git
 
 パスワード　：　作成したtoken　#3
 
-![image](https://github.com/eb-xiexinyue/Java_Induction_2024/blob/sya_shinetsu/img/5.png)
+![環境構築_1](https://github.com/user-attachments/assets/51b0dd60-e58a-4153-a216-73ac195458c0)
+
 
 <br>
 <h4>５、自分のブランチを選択して、次へ</h4>
