@@ -64,9 +64,13 @@ URI　：　https://github.com/eb-xiexinyue/EB_Tech_Training_2025.git
 
 
 <br>
-<h4>１０、完了　</h4>
+<h4>１０、完了ボタンを押下で、プロジェクト作成完了　</h4>
 
 ![image](https://github.com/eb-xiexinyue/Java_Induction_2024/blob/sya_shinetsu/img/13.png)
 
+<br>
+<h4>１１、プロジェクト作成完了後はEclipseの右側「パッケージ・エクスプローラー」タブまたは「プロジェクト・エクスプローラー」タブからプロジェクト「EB_Tech_Training_2025」を確認出来る　</h4>
+
+![環境構築_5](https://github.com/user-attachments/assets/7b5e9602-6436-4594-aae6-c23dcb395b02)
 
 
