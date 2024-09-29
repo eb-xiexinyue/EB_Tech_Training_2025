@@ -18,7 +18,8 @@
 <br>
 <h4>４、下記の通りに、各項目を入力して、次へ</h4>
 
-URI　：　[https://github.com/eb-xiexinyue/Java_Induction_2024.git](https://github.com/eb-xiexinyue/EB_Tech_Training_2025.git)
+URI　：　[[https://github.com/eb-xiexinyue/Java_Induction_2024.git](https://github.com/eb-xiexinyue/EB_Tech_Training_2025.git)
+](https://github.com/eb-xiexinyue/EB_Tech_Training_2025.git)
 
 ユーザー　：　自分のGITHUBのユーザーID
 
