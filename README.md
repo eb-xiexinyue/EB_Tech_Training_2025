@@ -20,15 +20,15 @@
 
 URI　：　https://github.com/eb-xiexinyue/EB_Tech_Training_2025.git
 
-ユーザー　：　<b style="color:red">自分のGITHUBのユーザーID</b>
+ユーザー　：　<b>自分のGITHUBのユーザーID</b>
 
-パスワード　：　<b style="color:red">作成したtoken　#3</b>
+パスワード　：　<b>作成したtoken　#3</b>
 
 ![環境構築_1](https://github.com/user-attachments/assets/51b0dd60-e58a-4153-a216-73ac195458c0)
 
 
 <br>
-<h4>５、<b style="color:red">自分が作ったのブランチ</b>を選択して、次へ</h4>
+<h4>５、<b>自分が作ったのブランチ</b>を選択して、次へ</h4>
 
 ![image](https://github.com/eb-xiexinyue/Java_Induction_2024/blob/sya_shinetsu/img/6.png)
 
