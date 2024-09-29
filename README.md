@@ -60,7 +60,8 @@ URI　：　https://github.com/eb-xiexinyue/EB_Tech_Training_2025.git
 
 ※module-info.javaファイル作成にチェックを外す
 
-![image](https://github.com/eb-xiexinyue/Java_Induction_2024/blob/sya_shinetsu/img/12.png)
+![環境構築_4](https://github.com/user-attachments/assets/45cdf38a-616c-48bb-83b8-4ba29f214c4d)
+
 
 <br>
 <h4>１０、完了　</h4>
