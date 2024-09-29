@@ -46,7 +46,8 @@ URI　：　https://github.com/eb-xiexinyue/EB_Tech_Training_2025.git
 <br>
 <h4>７、新規プロジェクトを選択して、完了</h4>
 
-![image](https://github.com/eb-xiexinyue/Java_Induction_2024/blob/sya_shinetsu/img/8.png)
+![環境構築_3](https://github.com/user-attachments/assets/c6e21359-6528-4535-be68-1d1b8acb64bb)
+
 
 <br>
 <h4>８、JAVAプロジェクトを選択して、次へ</h4>
