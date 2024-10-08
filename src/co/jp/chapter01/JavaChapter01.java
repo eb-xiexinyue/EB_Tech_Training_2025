@@ -32,7 +32,7 @@ public class JavaChapter01 {
 		
 		System.out.println("sum:"+sum);
 		System.out.println("10>9 ?1 ：0 [条件論理演算子]");
-		System.out.println(10 >9 ? 1 :0);//
+		System.out.println(10 >9 ? 1 :0);//a
 		
 		
 				
