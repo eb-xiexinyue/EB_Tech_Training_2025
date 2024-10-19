@@ -6,10 +6,22 @@ public class JavaChapter02 {
 		// TODO 自動生成されたメソッド・スタブ
 		String  str1 = "this is a string1";
 		String  str2 = "\t this is a string2";
-		System.out.println(str1 + str2);
-		System.out.println(str1.length() + str2.length());
-		System.out.println(str2.indexOf("a"));//index:第几个文字
-		System.out.println(str1.indexOf("T") );//存在しない場合は－1が出る
+		System.out.println("两个文字列合并相加:"+str1 + str2);
+		//System.out.println(str1 - str2);减号不能用
+		System.out.println("两个文字列的长度相减:"+(str1.length() - str2.length()));
+		System.out.println(str2.indexOf("a"));//indexOf:第几个文字（限第一次出现）
+		System.out.println(str2.indexOf("i"));
+		//第二个及以后
+		int firstIndex = str1.indexOf('i');
+		int secondIndex = str1.indexOf('i', firstIndex + 1);
+		System.out.println("str1第二个i的位置："+secondIndex);
+		
+		int firstIndextwo = str2.indexOf('i');
+		int secondIndextwo = str2.indexOf('i', firstIndextwo + 1);
+		System.out.println("str2第二个i的位置："+secondIndextwo);
+
+		
+		System.out.println("不存在的："+str1.indexOf("T") );//存在しない場合は－1が出る
 
 		//重要：文字列の比較
 		System.out.println("moji"=="moji");
@@ -31,7 +43,16 @@ public class JavaChapter02 {
 		String nullString = null;
 		System.out.println(strFromNew.equals(nullString));
 		//System.out.println(nullString.equals(nullString));
-
+		
+		//文字列运算
+		System.out.println("一加文字的\"一\"输出的是String的11：" +(1+"1"));
+		System.out.println("将字符转换为int Integer.parseInt（但是输出的还是11）："+Integer.parseInt("1")+1);
+		System.out.println("将int转换为字符String.valueOf（但是输出的还是11）："+("1"+String.valueOf(1)));
+		
+		//转义字符
+		System.out.println("\"1\"");
+		
+		
+	}
 	}
 
-}
