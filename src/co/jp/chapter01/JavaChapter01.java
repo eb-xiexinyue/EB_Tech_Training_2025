@@ -12,7 +12,7 @@ public class JavaChapter01 {
 		int num = 20;
 		long longNum = 20000;
 		float floatNum = (float)20.00f;
-		char char1 = 'F';
+		char char1 = 'a';
 		boolean bl = true;
 		
 		int num1 = 25;
