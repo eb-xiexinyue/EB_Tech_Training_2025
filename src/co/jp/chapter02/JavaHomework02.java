@@ -49,8 +49,8 @@ public class JavaHomework02 {
 		int[] coin= {500,100,10,5,1};
 		int[] cnt = new int[coin.length];//枚数を格納する配列
 		for (int i = 0; i < coin.length; i++) {
-            cnt[i] = sum/ coin[i];//枚数計算
-            sum %= coin[i];//余剰金
+            cnt[i] = money/ coin[i];//枚数計算
+            money %= coin[i];//余剰金
         }
 		for (int i = 0; i < coin.length; i++) {
             System.out.println(coin[i] + "円が " + cnt[i] + "枚");
