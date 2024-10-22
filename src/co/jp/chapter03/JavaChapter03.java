@@ -46,6 +46,15 @@ public class JavaChapter03 {
 		for (int i = 0; i < 10; i++) {
 			System.out.println("i is "+ i);	
 		}
+		//尽量避免嵌套for
+		for (int m= 0; m < 10; m++) {
+			for (int n= 0; n < 10; n++) {
+				if(m == n) {
+			System.out.print(m+""+n+"  " );	
+				}
+			}
+			System.out.println("\n");	
+		}
 		//  省略写法
 		int j = 0;
 		for( ; j < 10; j++) {
@@ -66,8 +75,93 @@ public class JavaChapter03 {
 			}
 			else {break;}//如果没有这个break，则コンソール右上角的红方块不会熄灭，程序不会停
 			}
+		//while循环 条件が満たされる限りループする時に使用
+		int whil = 0;
+		while (whil < 10) {
+			System.out.println("whil is "+ whil);
+			whil ++;
+		}
+		
+		//do while 循环  先做一次处理然后再做一次判断 (先do再判断while)
+		int dowhil = 0;
+		do {
+			System.out.println("dowhil is "+ dowhil);
+		}
+		while(dowhil < 0);
 
+        for (int m = 0; m < 10; m++) {
+            for (int n = 0; n < 10; n++) {
+                if (m==n||m+n==9) {
+                    
+                    System.out.print(m + "" + n + "\t");
+                }
+                else {System.out.print("\t");}
+            }
+            System.out.print("\n");
+        }
+        System.out.println("范例");
+        
+        for (int m = 0; m < 9; m++) {
+            for (int n = 0; n < 9; n++) {
+                if (m==n||m+n==8||n==4||m==4) {
+                    
+                    System.out.print(m + "" + n + "\t");
+                }
+                else {System.out.print("\t");}
+            }
+            System.out.print("\n");
+        }
+        
+        System.out.println("范例");
+        
+        for(int m=0;m<9;m++) {
+			for(int n=0;n<9;n++) {
+				if(m==4 || n==4 || m==n || m+n==8) {
+					System.out.print(m+""+n+"\t");
+				}
+				else {
+					System.out.print("\t");
+				}
 
+			}
+			System.out.print("\n");    
+		}
+        
+        System.out.println("范2");
+        
+        int length = 9;
+        for(int m=0;m<length;m++) {
+			for(int n=0;n<length;n++) {
+				if(m+n==4 || m+n==12 || m-n==4 || n-m==4) {
+					System.out.print(m+""+n+"\t");
+				}
+				else {
+					System.out.print("\t");
+				}
+
+			}
+			System.out.print("\n");    
+		}
+
+		
+		//System.out.print(Math.abs(-5));   //绝对值 
+		
+		
+		
+		
+		
+		//continue 函数 跳过当前
+		for(int x=0;x<10;x++) {
+			if(x==5) {
+				System.out.print("x=5"); 
+				continue;
+			}
+			else {
+				System.out.print("x=!5"); 
+			}
+			
+		}
+		
 		
 		
 		
