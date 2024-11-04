@@ -150,7 +150,7 @@ public class JavaChapter03 {
 		
 		
 		
-		//continue 函数 跳过当前
+		//continue 函数 跳过当前循环012346789,break是终止循环，01234
 		for(int x=0;x<10;x++) {
 			if(x==5) {
 				System.out.print("x=5"); 
