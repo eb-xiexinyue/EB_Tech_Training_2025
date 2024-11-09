@@ -2,7 +2,8 @@ package co.jp.chapter06;
 /*
 * 質問６-０︓配列は直接に印刷できません。下記メソッドを利⽤して、配列をprintしま
 す。以下メソッドを呼び出してください。
-* */
+*
+*  */
 public class Question6 {
     public static void printArray(Object[] objs) {
         if(objs == null) {
