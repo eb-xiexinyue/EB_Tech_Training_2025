@@ -4,6 +4,7 @@ package co.jp.chapter06;
 2. 引数１︓charの配列
 3. 戻り値︓charの配列
 4. 処理内容︓引数１のcharの配列先頭と末尾の空⽩⽂字列を削除してください。
+
 * */
 public class Question7 {
     public static char[] trim(char[] array){

@@ -3,6 +3,7 @@ package co.jp.chapter06;
 public class Question5 {
     /*
     * 質問５︓以下メソッドの実施結果を教えてください。
+    *
     * */
 
         private static void fillArray(String[] array) {

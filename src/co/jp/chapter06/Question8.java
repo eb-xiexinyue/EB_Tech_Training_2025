@@ -9,7 +9,8 @@ import java.util.Arrays;
 3. 戻り値︓ソート済みの配列
 4. 処理内容︓bubbleSortアルゴリズムを⽤い、⼊⼒した引数の配列をソートしてくださ
 い。
-* */
+*
+*  */
 public class Question8 {
     public static int[] bubbleSort(int[] array){
         for (int i = 0; i < array.length-1; i++) {

@@ -3,6 +3,7 @@ package co.jp.chapter06;
 public class Question2 {
     /*
      * 質問２．配列の和、MAX値、MIN値を求める処理を関数化してください、main関数に呼び出してください。
+     *
      * */
 
     //max method

@@ -4,6 +4,7 @@ package co.jp.chapter06;
 1. 質問６-１を⽤い、２つ配列をマージします。
 2. 質問８を⽤い、ステップ１のマージした配列をソートする。
 3. 注意︓コードを１⾏にしてください。
+*
 * */
 public class Question9 {
     public static void main(String[] args) {

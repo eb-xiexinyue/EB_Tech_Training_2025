@@ -4,7 +4,7 @@ public class Question4 {
 
     /*
     * 質問４︓以下メソッドの実施結果を教えてください。
-    * */
+    */
         private static void fillArray(String[] array) {
             array[0] = "value2";
         }
