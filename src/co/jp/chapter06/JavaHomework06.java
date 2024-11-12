@@ -145,31 +145,22 @@ public class JavaHomework06 {
 //		1. メソッド名︓trim
 //		2. 引数１︓charの配列
 //		3. 戻り値︓charの配列
-//		4. 処理内容︓引数１のcharの配列先頭と末尾の空⽩⽂字列を削除してください
+//		4. 処理内容︓引数１のcharの配列先頭と末尾の空白数列を削除してください
 		
 //	    static char[] trim(char[] array) {
 //	        int start = 0;
-//
 //	        while (start < array.length && array[start] == ' ') {
 //	            start++;
 //	        }
-//
 //	        int end = array.length - 1;
-//
-//	      
 //	        while (end >= 0 && array[end] == ' ') {
 //	            end--;
 //	        }
-//
-//	       
 //	        if (start > end) {
 //	            return new char[0];
-//	        }
-//
-//	  
+//	        }	  
 //	        char[] output = new char[end - start + 1];
 //	        System.arraycopy(array, start, output, 0, output.length);
-//
 //	        return output;
 //	    }
 //}
@@ -182,12 +173,9 @@ public class JavaHomework06 {
        
 //	    public static void bubbleSort(int[] array) {
 //   
-//            for (int i = 0; i < array.length - 1; i++) {
-//       
-//            for (int j = 0; j < array.length - 1 - i; j++) {
-//                 
-//            	if (array[j] > array[j + 1]) {
-//               
+//            for (int i = 0; i < array.length - 1; i++) {       
+//            for (int j = 0; j < array.length - 1 - i; j++) {                 
+//            	if (array[j] > array[j + 1]) {              
 //                int temp = array[j];
 //                array[j] = array[j + 1];
 //                array[j + 1] = temp;
@@ -224,6 +212,7 @@ public class JavaHomework06 {
 		        return array;
 		    }
 		}
+		
 
             
 	   
