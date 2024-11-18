@@ -48,11 +48,7 @@ public class JavaHomework07 {
 //         }
 //        }
 	
-	
-	
-	
-	
-	
+
 	}
 }
 		
