@@ -11,7 +11,7 @@ public class JavaHomework08 {
 
 		String empty = "";
 		String nullString = null;
-		System.out.println(nullString.equals(empty)); // nullはそもそもメソッドとして使えない
+		//System.out.println(nullString.equals(empty)); // nullはそもそもメソッドとして使えない
 
 		//質問２
 		//// Employee.java
