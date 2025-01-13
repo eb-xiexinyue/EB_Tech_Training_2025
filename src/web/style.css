@@ -1,0 +1,58 @@
+@charset "UTF-8";
+/* ページ全体の背景色を設定 */
+body {
+    background-color: #f0f8ff; /* アリスブルー */
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+/* コンテンツの全体レイアウトを調整 */
+body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+}
+
+/* 見出しのスタイル */
+h1 {
+    color: #333;
+    font-size: 2.5em;
+    margin-bottom: 20px;
+}
+
+h2 {
+    color: #555;
+    font-size: 1.8em;
+    margin-top: 30px;
+}
+
+/* リストのスタイル */
+ul {
+    list-style-type: square;
+    padding: 0;
+}
+
+li {
+    font-size: 1.2em;
+    margin: 5px 0;
+}
+
+/* リンクのスタイル */
+a {
+    color: #1e90ff;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+/* 文章全体の余白調整 */
+p, ul {
+    max-width: 600px;
+    text-align: center;
+}
