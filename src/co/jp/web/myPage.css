@@ -12,15 +12,22 @@ body {
 
 div {
   padding-left: 20%;
-  display: flex;
+  display: block;
   flex-direction: column;
 }
 
-#hrefSize {
+#hrefSize a {
+  color: black;
   font-size: 34px;
   font-family: "Courier New", Arial;
 }
 
 .fontStyle {
   font-family: KaiTi, Arial;
+}
+
+button {
+  display: inline-block;
+  font-size: 34px;
+  font-family: "Courier New", Arial;
 }
