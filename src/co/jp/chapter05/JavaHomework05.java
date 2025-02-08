@@ -2,156 +2,143 @@ package co.jp.chapter05;
 
 public class JavaHomework05 {
 	public static void main(String[] args) {
-		int[] array = new int[] {1, 3, 5, 7, 100, 0, 1};
-		System.out.println("max is "+max(array));
-		System.out.println("min is "+min(array));
-		System.out.println("sum is "+sum(array));
-		String[] ay= {"a","b","c"};
-		printArray(ay);
-		int[] left = new int[] {1, 2, 3, 4};
-		int[] right = new int[] {5, 6, 7, 8};
-		bubbleSort(megerArray(left,right));
-		
-//		String x = null;
-//		sayHello(x);
-//		System.out.println(x);
-//		
-//		String[] array1 = new String[]{"value1"};
-//		fillArray(array1);
-//		System.out.println(array1[0]);
-//		
-//		String[] array2 = null;
-//		fillArray(array2);
-//		System.out.println(array2 == null);
-	}
-
-	//	質問１．以下関数の修飾⼦、返却型、関数名、引数（引数の型・名称）を回答してください。
-//	public static void main(String[] args);
-//	修飾⼦:public static
-//	返却型:void
-//	関数名:main
-//	引数:文字列・args
-
-	//	質問２．配列の和、MAX値、MIN値を求める処理を関数化してください、main関数に呼び出してください。
-	// 例：配列のMax値を求めるメソッド
-	public static int max(int[] datas) {
-		int max=datas[0];
-		for(int i=0;i<datas.length;i++) {
-			if (datas[i]>max) {
-				max=datas[i];
-			}
-		}
-		return max;
-	}
-	
-	public static int min(int[] datas) {
-		int min=datas[0];
-		for(int i=0;i<datas.length;i++) {
-			if (datas[i]<min) {
-				min=datas[i];
-			}
-		}
-		return min;
-	}
-	
-	public static int sum(int[] datas) {
-		int sum=0;
-		for(int i=0;i<datas.length;i++) {
-			sum+=datas[i];
-		}
-		return sum;
-	}
-
-	//	質問３．以下メソッドの実施結果を教えてください。
-//	private static void sayHello(String y) {
-//		y = "Hello world";
-//		}
-//	null
-
-	//	質問４︓以下メソッドの実施結果を教えてください。
-//	private static void fillArray(String[] array) {
-//		array[0] = "value2";
-//		}
-//	value2
-	
-
-	//	質問５︓以下メソッドの実施結果を教えてください。
-//	private static void fillArray(String[] array) {
-//		array = new String[]{"1", "2"};
-//		}
-//	error
-
-	//	質問６-０︓配列は直接に印刷できません。下記メソッドを利⽤して、配列をprintします。以下メソッドを呼び出してください。
-	public static void printArray(Object[] objs) {
-		if(objs == null) {
-		System.out.println("null");
-		return;
-		}
-		String prefix = "";
-		StringBuilder sb = new StringBuilder();
-		sb.append("[");
-		for(Object obj : objs) {
-		sb.append(prefix);
-		sb.append(String.valueOf(obj));
-		prefix = ", ";
-		}
-		sb.append("]");
-		System.out.println(sb.toString());
-		}
-	
-	//	質問６-１︓以下静的なメソッドを定義してください。
-	public static int[] megerArray(int[] left, int[] right) {
-		int[] result = new int[left.length + right.length];
-		System.arraycopy(left, 0, result, 0, left.length);
-		System.arraycopy(right, 0, result, left.length, right.length);
-		return result;
-	}
-
-	//	質問６-２︓以下静的なメソッドを定義してください。
-	public static int[] subArray(int[] array, int startIndex, int length) {
-		int[] result = new int[length];
-		System.arraycopy(array, startIndex, result, 0, length);
-		return result;
-	}
-	
-
-	//	質問７︓以下静的なメソッドを定義してください。
-	public static char[] trim(char[] array) {
-		int start = 0;
-		int end = array.length - 1;
-		while (start <= end && array[start] == ' ') {
-            start++;
-        }
-		while (end >= start && array[end] == ' ') {
-            end--;
-        }
-		char[] trimmedArray = new char[end - start + 1];
-		System.arraycopy(array, start, trimmedArray, 0, end - start + 1);
-		return trimmedArray;
-	}
-	
-
-	//	質問８︓バブルソート⽤メソッドを作成してください。
-	public static int[] bubbleSort(int[] array) {
-		int n = array.length;
-		for (int i = 0; i < n - 1; i++) {
-			 boolean swapped = false;
-			 for (int j = 0; j < n - 1 - i; j++) {
-				 if (array[j] > array[j + 1]) {
-					 int temp = array[j];
-					 array[j] = array[j + 1];
-					 array[j + 1] = temp;
-					 swapped = true;
+		// 設問１: 1から100までの偶数の和を求める (for + if)
+		int sumEven = 0;
+		for (int i = 1; i <= 100; i++) {
+			if (i % 2 == 0) {
+				sumEven += i;
 				}
 			}
-			if (!swapped) {
-				break;
+		System.out.println("設問１: 1から100までの偶数の和は " + sumEven);
+		
+		// 設問２: 5の階乗を求める (for)
+		int factorial = 1;
+		for (int i = 1; i <= 5; i++) {
+			factorial *= i;
 		}
+		System.out.println("設問２: 5の階乗は " + factorial);
+		
+		// 設問３: 配列 {1, 2, 6, 7, 9, 6, 2, 1} の最大値、最小値、和、平均値を求める
+		int[] arr = {1, 2, 6, 7, 9, 6, 2, 1};
+		int max = arr[0];
+		int min = arr[0];
+		int sum = 0;
+		for (int num : arr) {
+			if (num > max) {
+				max = num;
+			}
+			if (num < min) {
+				min = num;
+			}
+			sum += num;
 		}
-		return array;
-	}
+		double avg = (double) sum / arr.length;
+		System.out.println("設問３: 配列の最大値は " + max);
+		System.out.println("設問３: 配列の最小値は " + min);
+		System.out.println("設問３: 配列の和は " + sum);
+		System.out.println("設問３: 配列の平均値は " + avg);
+		
+		// 設問４: 配列に重複する要素を探す（各重複要素は1回だけ表示）
+		System.out.print("設問４: 重複している要素は ");
+		for (int i = 0; i < arr.length; i++) {
+			boolean alreadyChecked = false;
+			for (int k = 0; k < i; k++) {
+				if (arr[i] == arr[k]) {
+					alreadyChecked = true;
+					break;
+				}
+			}
+			if (alreadyChecked) {
+				continue;
+			}
 
-	//	質問９︓メソッドの呼び出す練習。
-	//	main
+			boolean isDuplicate = false;
+			for (int j = i + 1; j < arr.length; j++) {
+				if (arr[i] == arr[j]) {
+					isDuplicate = true;
+					break;
+				}
+			}
+			if (isDuplicate) {
+				System.out.print(arr[i] + " ");
+			}
+		}
+		System.out.println();
+		
+		// 設問５: 配列内の値「7」のインデックスを求める
+		System.out.print("設問５: 値7が存在するインデックスは ");
+		for (int i = 0; i < arr.length; i++) {
+			if (arr[i] == 7) {
+				System.out.print(i + " ");
+			}
+		}
+		System.out.println();
+		
+		// 設問６: 任意の２次元配列同士の行列乗法を求める
+        int[][] A = {
+            {1, 2, 3},
+            {4, 5, 6}
+        };
+        int[][] B = {
+            {7, 8},
+            {9, 10},
+            {11, 12}
+        };
+
+        int m = A.length;
+        int n = A[0].length;
+        int p = B[0].length;
+        
+        int[][] C = new int[m][p];
+
+        for (int i = 0; i < m; i++) {
+            for (int j = 0; j < p; j++) {
+                for (int k = 0; k < n; k++) {
+                    C[i][j] += A[i][k] * B[k][j];
+                }
+            }
+        }
+        System.out.println("設問６: 行列乗法の結果は");
+        for (int i = 0; i < m; i++) {
+            for (int j = 0; j < p; j++) {
+                System.out.print(C[i][j] + "\t");
+            }
+            System.out.println();
+        }
+		
+		// 設問７: 配列を昇順でソートする (java.utilのメソッド禁止)
+		int[] sortArr = {5, 2, 8, 3, 9, 1, 4};
+		for (int i = 0; i < sortArr.length - 1; i++) {
+			for (int j = 0; j < sortArr.length - 1 - i; j++) {
+				if (sortArr[j] > sortArr[j + 1]) {
+					int temp = sortArr[j];
+					sortArr[j] = sortArr[j + 1];
+					sortArr[j + 1] = temp;
+				}
+			}
+		}
+		System.out.print("設問７: 昇順にソートされた配列は ");
+		for (int num : sortArr) {
+			System.out.print(num + " ");
+		}
+		System.out.println();
+		
+		// 設問８: LV10のパスカルの三角形を出力する
+		System.out.println("設問８: パスカルの三角形 (LV10)");
+		int levels = 10;
+		for (int i = 0; i < levels; i++) {
+			// 左側の空白を出力（整形用）
+			for (int s = 0; s < levels - i; s++) {
+				System.out.print(" ");
+			}
+			int number = 1;
+			for (int j = 0; j <= i; j++) {
+				System.out.print(number + " ");
+				// 次の数字は前の数字 * (i - j) / (j + 1)
+				number = number * (i - j) / (j + 1);
+			}
+			System.out.println();
+		}
+	}
 
 }
