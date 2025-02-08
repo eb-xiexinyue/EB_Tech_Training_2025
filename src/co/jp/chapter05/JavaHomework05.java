@@ -127,14 +127,12 @@ public class JavaHomework05 {
 		System.out.println("設問８: パスカルの三角形 (LV10)");
 		int levels = 10;
 		for (int i = 0; i < levels; i++) {
-			// 左側の空白を出力（整形用）
 			for (int s = 0; s < levels - i; s++) {
 				System.out.print(" ");
 			}
 			int number = 1;
 			for (int j = 0; j <= i; j++) {
 				System.out.print(number + " ");
-				// 次の数字は前の数字 * (i - j) / (j + 1)
 				number = number * (i - j) / (j + 1);
 			}
 			System.out.println();
