@@ -1,0 +1,36 @@
+package co.jp.chapter09;
+
+import javax.swing.*;
+import java.awt.event.ActionEvent;
+
+public class Chapter09Homework {
+
+    // 質問1: 以下ソースにラムダ式の使う場所を解釈してください。
+    public static void main(String[] args) {
+        JFrame window = new JFrame("DCNet Java 教育");
+        window.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
+        window.setSize(800, 600);
+
+        JButton btn = new JButton("hello world");
+        window.getContentPane().add(btn);
+
+        // ラムダ式の使用箇所
+        // ActionListener インターフェースの actionPerformed メソッドをラムダ式で表現。
+        // ボタンをクリックすると「ボタンクリックしました。」を出力します。
+        btn.addActionListener((ActionEvent e) -> {
+            System.out.println("ボタンクリックしました。");
+        });
+
+        window.setVisible(true);
+
+        // 質問2: 以下ソースに匿名クラスの利用行は？
+        // new Thread() { ... }.start(); の部分が匿名クラスです。
+        // Thread クラスを継承し run メソッドをオーバーライドしています。
+        new Thread() {
+            @Override
+            public void run() {
+                System.out.println("thread running...");
+            }
+        }.start();
+    }
+}
