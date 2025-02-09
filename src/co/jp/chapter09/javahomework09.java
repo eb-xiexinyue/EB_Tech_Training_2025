@@ -1,64 +1,49 @@
 package co.jp.chapter09;
 
 public class javahomework09 {
-/*質問１public class ArrayIndexExceptionExample {
-    public static void main(String[] args) {
-        int[] numbers = {1, 2, 3, 4, 5};
+	public static void main(String[] args) {
+		// TODO 自動生成されたメソッド・スタブ
+//	質問１︓以下ソースにラムダ式の使う場所を解釈してください。
+	
+//	import java.awt.event.ActionEvent;
+//	import java.awt.event.ActionListener;
+//	import javax.swing.JButton;
+//	import javax.swing.JFrame;
+//	public class GUISample {
+//	public static void main(String[] args) {
+//	JFrame window = new JFrame("DCNet Java 教育");
+//	window.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
+//	window.setSize(800, 600);
+//	JButton btn = new JButton("hello world");
+//　　 window.getContentPane().add(btn);
+//	btn.addActionListener((ActionEvent e) -> {
+//	System.out.println("ボタンクリックしました。");
+//	 });
+//
+//	  window.setVisible(true);
+//	  }
+//	 このラムダ式は匿名内部クラスを作成して ActionListener インターフェースを実装することです。
+//	　　匿名内部クラスを置き換えた形で動作し、クリックイベントを処理し。「ボタンクリックしました」を出力します。
+		
 
-        try {
-            // 配列の範囲外をアクセス
-            System.out.println(numbers[10]);
-        } catch (ArrayIndexOutOfBoundsException e) {
-            System.out.println("エラー: 配列の範囲外をアクセスしました。");
-            e.printStackTrace();
-        }
+	//質問２︓以下ソースに匿名クラスの利⽤する⾏は︖
 
-        System.out.println("プログラムは正常に続行されます。");
-    }
-}
-*/
-	/*質問２// カスタム例外クラス
-class ValidationException extends Exception {
-    public ValidationException(String message) {
-        super(message);
-    }
-}
 
-// 入力を検証するクラス
-class UserValidator {
-    public static void validateUserInput(String username, int age) throws ValidationException {
-        if (username == null || username.trim().isEmpty()) {
-            throw new ValidationException("ユーザー名は空白にできません。");
-        }
-        if (age < 18) {
-            throw new ValidationException("年齢は18歳以上である必要があります。");
-        }
-    }
-}
+//	public class Kicker {
+//	 public static void main(String... args) {
+//	 new Thread() {
+//	 @Override
+//	 public void run() {
+//	 System.out.println("thread running...");
+//	 }
+//	 }.start();
+//	 }
+//	}		
 
-public class ValidationExceptionExample {
-    public static void main(String[] args) {
-        try {
-            // ユーザー入力を検証
-            UserValidator.validateUserInput("田中", 17);
-        } catch (ValidationException e) {
-            System.out.println("入力エラー: " + e.getMessage());
-        }
-
-        try {
-            UserValidator.validateUserInput("", 25);
-        } catch (ValidationException e) {
-            System.out.println("入力エラー: " + e.getMessage());
-        }
-
-        try {
-            // 正常な入力
-            UserValidator.validateUserInput("山田", 25);
-            System.out.println("ユーザー入力が正常です。");
-        } catch (ValidationException e) {
-            System.out.println("入力エラー: " + e.getMessage());
-        }
-    }
-}
-*/
+//答えは以下の部分です。
+//	new Thread() {
+//	    @Override
+//	    public void run() {
+//	        System.out.println("thread running...");
+	}
 }
